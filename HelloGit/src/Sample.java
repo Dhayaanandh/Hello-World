@@ -41,7 +41,7 @@ public class Sample{
         	 String[] test = socket.getSSLParameters().getProtocols();
         	 for(int i=0;i<test.length;i++)
         	 System.out.println(con.getCipherSuite());
-        			 
+        	System.out.println("Commiting");
          }
          catch(Exception e)
          {
