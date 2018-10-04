@@ -42,6 +42,7 @@ public class Sample{
         	 for(int i=0;i<test.length;i++)
         	 System.out.println(con.getCipherSuite());
         	System.out.println("Commiting");
+        	System.out.println("Hello Testing");
          }
          catch(Exception e)
          {
