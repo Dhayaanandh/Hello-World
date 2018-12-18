@@ -17,6 +17,7 @@ public class FileOperations {
 		String FQDN = vcIP.concat(".");
 		String hostName = FQDN.substring(0, FQDN.indexOf("."));
 		System.out.println(hostName+" "+vcIP);
+		System.out.println("System.out.prinltn");
 		}
 		catch(Exception e)
 		{
